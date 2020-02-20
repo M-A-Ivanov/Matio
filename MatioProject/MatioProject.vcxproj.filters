@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SearchingSorting">
+      <UniqueIdentifier>{aa127ba6-bf51-4821-83ad-c779c9ec2cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lists">
+      <UniqueIdentifier>{79ae0652-b0ad-486f-8369-437cf9e4a677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{2b269895-8321-42ba-a5e7-027c7a325c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lists">
+      <UniqueIdentifier>{cf9fa7aa-4f12-47df-a33f-663e35290459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SearchingSorting">
+      <UniqueIdentifier>{0f83e427-36fb-4619-9564-ccb62ed53447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{6994a5d7-84e9-4e48-aacc-e220e9206077}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ListTests.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertionSortTests.h">
+      <Filter>Header Files\SearchingSorting</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertionSort.h">
+      <Filter>Header Files\SearchingSorting</Filter>
+    </ClInclude>
+    <ClInclude Include="SortingSearchingUtils.h">
+      <Filter>Header Files\SearchingSorting</Filter>
+    </ClInclude>
+    <ClInclude Include="SortingTest.h">
+      <Filter>Header Files\SearchingSorting</Filter>
+    </ClInclude>
+    <ClInclude Include="IOUtils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertionSort.cpp">
+      <Filter>Source Files\SearchingSorting</Filter>
+    </ClCompile>
+    <ClCompile Include="SortingSearchingUtils.cpp">
+      <Filter>Source Files\SearchingSorting</Filter>
+    </ClCompile>
+    <ClCompile Include="SortingTest.cpp">
+      <Filter>Source Files\SearchingSorting</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>Source Files\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="ListTests.cpp">
+      <Filter>Source Files\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="IOUtils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
